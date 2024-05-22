@@ -1,4 +1,3 @@
-Sure, here is a simple README file tailored for your backend project, which uses MySQL as the database, Java as the frontend, and JDBC as the connector between Java and MySQL.
 
 ---
 
