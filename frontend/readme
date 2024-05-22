@@ -1,0 +1,48 @@
+# Drug Performance Analysis - Frontend
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+The frontend of the "Drug Performance Analysis" project provides a user interface for interacting with the backend system. It allows users to manage and analyze data related to patients, doctors, drugs, prescriptions, reviews, clinical trials, and adverse events. The frontend is implemented in Java and communicates with the backend via JDBC.
+
+## Setup
+To set up the frontend, follow these steps:
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/drug-performance-analysis-frontend.git
+    cd drug-performance-analysis-frontend
+    ```
+
+2. **Install dependencies:**
+    - Ensure you have Java installed on your machine.
+
+3. **Set up the backend:**
+    - Make sure the backend server is running and accessible. Refer to the backend README for setup instructions.
+
+4. **Configure the frontend:**
+    - Ensure that the frontend is configured to connect to the backend. If necessary, update the backend URL in your frontend configuration files.
+
+5. **Compile and run the frontend:**
+    - Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
+    - Compile the project.
+    - Run the main application class to start the frontend application.
+
+
+## Technologies Used
+- **Java**
+- **Swing** (or another Java GUI framework like JavaFX, depending on your implementation)
+- **JDBC** (for connecting to the backend)
+
+## Features
+- **User-Friendly Interface:** Easy-to-use interface for managing drug performance data.
+- **CRUD Operations:** Perform create, read, update, and delete operations on various entities.
+- **Data Visualization:** Visualize drug performance data through the interface.
+- **Connectivity:** Seamless integration with the backend system for data persistence.
